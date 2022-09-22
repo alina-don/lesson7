@@ -1,0 +1,125 @@
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+
+[class*="__container"] {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-top: 38px;
+	margin-bottom: 92px;
+}
+
+img {
+	width: 100%;
+}
+
+.header-image {
+	margin-bottom: 60px;
+}
+
+.vulputate,
+.lorem {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+}
+
+.vulputate,
+.mauris {
+	margin-bottom: 24px;
+}
+
+.at-facilisi {
+	margin-bottom: 48px;
+}
+
+.lorem {
+	padding-left: 58px;
+	margin-bottom: 48px;
+}
+
+.list {
+	margin-bottom: 24px;
+}
+
+.item {
+	padding-left: 32px;
+	margin-bottom: 4px;
+}
+
+.enim {
+	margin-bottom: 92px;
+}
+
+
+/* відпрацювання фонів */
+
+footer {
+	background: url("../img/bushe.jpg") 90% 32% / auto 350px  repeat-y, linear-gradient(55.95deg, rgba(255, 255, 255, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("../img/mount.jpg") 0 0 / cover no-repeat;
+}
+
+.example1 {
+	height: 350px;
+	background: url("../img/mitya.jpg") 50px 70px / contain repeat-x;
+}
+.example2 {
+	background: url("../img/tangerines.jpg") 0 0 / cover no-repeat, greenyellow;
+	margin: 100px 200px;
+	width: 500px;
+	height: 450px;
+}
+.examp2-text {
+	width: 500px;
+	height: 450px;
+	font-size: 72px;
+	line-height: 72px;
+	text-transform: uppercase;
+	overflow: auto;
+}
+
+.example3 {
+	background: url("../img/nuts.jpg") 100px -50px / cover no-repeat;
+	width: 700px;
+	height: 500px;
+}
